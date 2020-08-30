@@ -2,11 +2,6 @@
     "name": "ersindemirtas/laravel-polygonio",
     "description": "Laravel package for polygon.io.",
     "type": "library",
-    "require-dev": {
-        "orchestra/testbench": "^5.4",
-        "phpunit/phpunit": "^9.3",
-        "phan/phan": "^3.2"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -14,7 +9,14 @@
             "email": "ed5@me.com"
         }
     ],
-    "require": {},
+    "require": {
+        "ersindemirtas/polygonio-php-client": "^2.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.4",
+        "phpunit/phpunit": "^9.3",
+        "phan/phan": "^3.2"
+    },
     "autoload": {
         "psr-4": {
             "ErsinDemirtas\\PolygonIO\\": "src/"
