@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "ersindemirtas/polygonio-php-client": "^2.1"
+        "ersindemirtas/polygonio-php-client": "^2.2"
     },
     "require-dev": {
         "orchestra/testbench": "^5.4",
