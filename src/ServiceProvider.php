@@ -18,7 +18,7 @@ class ServiceProvider extends LaravelServiceProvider
         parent::register();
 
         $this->app->singleton(Rest::class, function(){
-            return new Rest(config('laravel-polygonio.apiKey'));
+            return new Rest(config('laravel-polygonio.apiKey', ''));
         });
     }
 
@@ -30,7 +30,7 @@ class ServiceProvider extends LaravelServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/laravel-polygonio.php' => config_path('laravel-polygonio.php'),
+            __DIR__ . '/../config/laravel-polygonio.php' => config_path('laravel-polygonio.php'),
         ]);
     }
 }
