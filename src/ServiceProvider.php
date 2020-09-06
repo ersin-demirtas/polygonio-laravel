@@ -18,7 +18,7 @@ class ServiceProvider extends LaravelServiceProvider
         parent::register();
 
         $this->app->singleton(Rest::class, function(){
-            return new Rest('API_KEY');
+            return new Rest(config('laravel-polygonio.apiKey'));
         });
     }
 
