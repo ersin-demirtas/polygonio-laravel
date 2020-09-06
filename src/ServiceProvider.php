@@ -2,7 +2,6 @@
 
 namespace ErsinDemirtas\PolygonIO;
 
-use ErsinDemirtas\PolygonIO\Rest\Rest;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 /**
@@ -17,8 +16,8 @@ class ServiceProvider extends LaravelServiceProvider
     {
         parent::register();
 
-        $this->app->singleton(Rest::class, function(){
-            return new Rest(config('laravel-polygonio.apiKey', ''));
+        $this->app->singleton(PolygonIO::class, function(){
+            return new PolygonIO(config('laravel-polygonio.apiKey', ''));
         });
     }
 
