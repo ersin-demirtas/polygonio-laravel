@@ -2,8 +2,8 @@
 
 namespace ErsinDemirtas\PolygonIO;
 
+use ErsinDemirtas\PolygonIO\Rest\Rest;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
-use PolygonIO\Rest\Rest;
 
 /**
  * Class ServiceProvider
