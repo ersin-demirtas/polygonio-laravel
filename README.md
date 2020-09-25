@@ -10,6 +10,28 @@ Laravel package for polygon.io.
 
 You can install the package via composer:
 
-```
+```bash
 composer require ersindemirtas/polygonio-laravel
 ```
+
+## Usage
+
+
+
+## Testing
+
+``` bash
+composer test
+```
+
+## Changelog
+
+Please see [CHANGELOG.md](CHANGELOG.md) for more information on what has changed recently.
+
+## Security
+
+Discover security related issues? Please email ed5@me.com
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
