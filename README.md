@@ -18,9 +18,29 @@ composer require ersindemirtas/polygonio-laravel
 
 
 
-## Testing
+## Development
 
-``` bash
+### Prerequisite
+
+- [composer](https://getcomposer.org/)
+- [php > 7.4](https://www.php.net/)
+- [ext-json](https://www.php.net/manual/en/json.installation.php)
+- [ext-ast](https://github.com/nikic/php-ast#installation)
+
+### Use the tooling
+
+Install dependencies
+```bash
+composer require
+```
+
+Run the linter
+```bash
+composer lint
+```
+
+Run the tests
+```
 composer test
 ```
 
