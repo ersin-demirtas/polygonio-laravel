@@ -31,7 +31,7 @@ composer require ersindemirtas/polygonio-laravel
 
 Install dependencies
 ```bash
-composer require
+composer install
 ```
 
 Run the linter
