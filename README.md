@@ -1,4 +1,4 @@
-# Polygonio Laravel Package
+# Polygon.io Laravel Package
 Laravel package for polygon.io.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ersindemirtas/laravel-polygonio)](https://packagist.org/packages/ersindemirtas/laravel-polygonio)
